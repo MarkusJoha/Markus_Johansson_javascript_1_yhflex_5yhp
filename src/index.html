@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="searchbar">
+        <form id="search-form">
+            <label for="search-input">Type in a Language or a Country</label>
+            <input type="text" id="search-input" required>
+            <label for="radio-country">Country</label>
+            <input type="radio" name="radio-choice" id="radio-country" value="Country" required>
+            <label for="radio-lang">Language</label>
+            <input type="radio" name="radio-choice" id="radio-lang" value="Language" required>
+            <button type="submit" id="search-button">Search!</button>
+        </form>
+    </div>
+    <div id="result-div"></div>
+    
+</body>
+</html>
